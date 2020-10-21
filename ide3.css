@@ -39,8 +39,15 @@ header a {
     background-color: rgb(61, 61, 61);
 }
 
+
+
 .circle {
-    display: flex;
+    position: absolute;
+
+
+    opacity: 0.3;
+
+    margin: 10px;
     background: black;
     border-radius: 50%;
     height: 300px;
@@ -53,11 +60,14 @@ header a {
     border: solid 3px #c2833c;
 }
 
-.circle img {
-    animation: none;
-    border: solid 3px #c2833c;
-    border-radius: 47%;
+.atom img {
+    margin: 90px;
+    border-radius: 51%;
+    border-style: double;
+    border-color: #c2833c;
 }
+
+
 
 @keyframes bulle {
     0% {
